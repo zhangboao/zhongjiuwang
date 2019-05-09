@@ -1,11 +1,12 @@
 window.onload = function() {
-	if( document.cookie ){
-		let str = location.href;
-		let tel = str.split("?")[1].split("=")[1];
-		if( tel.length == 11 ){
-			$(".log").html( `<a href="shopcar.html" target="_blank">${tel}</a>` );
+	$('#head').load("head.html",function(){
+		let str = document.cookie;
+		if(str) {
+			let tel = JSON.parse(str.split("=")[1]).tel;
+			$(".log").html(`<a href="shopcar.html" target="_blank">${tel}</a>`);
 		}
-	}
+	});
+	$('#foot').load("foot.html");
 	//轮播图
 	slideshow();
 	function slideshow() {
