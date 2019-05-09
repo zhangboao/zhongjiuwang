@@ -1,0 +1,588 @@
+.fixed {
+	width: 40px;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	right: 0;
+	background: #2A2A2E;
+	z-index: 20;
+}
+
+.fixed .shopbox {
+	width: 40px;
+	height: 140px;
+	position: absolute;
+	top: 47%;
+	cursor: pointer;
+}
+
+.fixed .shopbox:hover {
+	background: #e3393c;
+}
+
+.fixed .shopbox span {
+	display: block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.fixed .shopbox i {
+	display: inline-block;
+	width: 16px;
+	height: 14px;
+	background: url(../images/Himall_web.png) -1429px 0;
+}
+
+.fixed .shopbox p {
+	padding: 0 14px;
+	color: #E8E8E8;
+}
+
+.fixed .shopbox b {
+	display: inline-block;
+	min-width: 14px;
+	height: 20px;
+	line-height: 20px;
+	border-radius: 10px;
+	background: #e3393c;
+	padding: 0 3px;
+	text-align: center;
+	color: #E8E8E8;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.slideshow {
+	width: 100%;
+	height: 492px;
+	position: relative;
+}
+
+.slideshow ul {
+	position: relative;
+}
+
+.slideshow ul li {
+	float: left;
+	width: 100%;
+	height: 492px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.slideshow li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+}
+
+.slideshow .slide-controls {
+	position: absolute;
+	z-index: 10;
+	width: 100%;
+	text-align: center;
+	bottom: 15px;
+	cursor: default;
+}
+
+.slideshow .slide-controls span {
+	display: inline-block;
+	margin: 0 5px;
+	width: 12px;
+	height: 12px;
+	background: white;
+	border-radius: 50%;
+	color: transparent;
+}
+
+.slideshow .slide-controls span.cur {
+	background: transparent;
+	border: 3px solid white;
+}
+
+.slideshow .small-banner {
+	width: 200px;
+	height: 490px;
+	position: relative;
+	z-index: 10;
+	top: 0;
+	left: 1100px;
+}
+
+.slideshow .small-banner img {
+	width: 200px;
+	height: 243px;
+	display: block;
+	opacity: 0.9;
+	position: absolute;
+}
+
+.content,
+.hot-good {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.content .head {
+	height: 37px;
+	padding-top: 30px;
+	line-height: 35px;
+	margin-bottom: 4px;
+}
+
+.content .head .bao {
+	display: inline-block;
+	width: 185px;
+	height: 35px;
+	text-align: center;
+	font-size: 16px;
+	color: #cc0000;
+	border-top: 2px solid #CC0000;
+	border-left: 1px solid #ECECEC;
+	border-right: 1px solid #ECECEC;
+	cursor: pointer;
+}
+
+.content .head .more {
+	font-size: 16px;
+	color: #666666;
+	float: right;
+	display: inline-block;
+	width: 1013px;
+	height: 37px;
+	line-height: 37px;
+	text-align: right;
+	border-bottom: 1px solid #C9C9C9;
+}
+
+.content .head .more a:hover {
+	color: #E3393C;
+}
+
+.content .good {
+	width: 1200px;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+.content .good li {
+	float: left;
+	width: 230px;
+	height: 220px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+.content .good li img {
+	width: 230px;
+	height: 170px;
+	display: block;
+	position: relative;
+	left: 0;
+}
+
+.content .good li h3 {
+	width: 200px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 14px;
+	color: #333;
+	height: 24px;
+	line-height: 24px;
+	font-weight: normal;
+	padding-left: 20px;
+}
+
+.content .good li p {
+	padding-top: 5px;
+	height: 24px;
+	line-height: 24px;
+	font-size: 16px;
+	color: #f00f34;
+	padding-left: 20px;
+}
+
+.content .good li p span {
+	font-weight: 800;
+}
+
+.content .floor {
+	width: 1190px;
+}
+
+.content .floor .floor-hd {
+	width: 1190px;
+	height: 32px;
+	border-bottom: 1px solid #c9c9c9;
+	margin-bottom: 4px;
+}
+
+.content .floor .floor-hd h3 {
+	height: 18px;
+	width: 20%;
+	line-height: 18px;
+	color: #3d4048;
+	font-size: 16px;
+	padding-left: 12px;
+	border-left: 4px solid #f00f34;
+	float: left;
+}
+
+.content .floor .floor-hd ul {
+	float: right;
+	margin-right: 20px;
+}
+
+.content .floor .floor-hd li {
+	float: left;
+	font-size: 16px;
+	margin-left: 50px;
+	color: #2c2c2c;
+	height: 32px;
+	line-height: 32px;
+	cursor: pointer;
+}
+
+.content .floor .floor-hd li:hover {
+	color: #e3393c;
+}
+
+.content .floor .floor-con .con-top {
+	overflow: hidden;
+}
+
+.content .floor .floor-con .top-left {
+	width: 230px;
+	height: 450px;
+	float: left;
+	margin-right: 10px;
+	position: relative;
+}
+
+.content .floor .floor-con .top-left .slide {
+	width: 230px;
+	height: 450px;
+}
+
+.content .floor .floor-con .top-left .cata {
+	width: 230px;
+	height: 124px;
+	position: absolute;
+	top: 150px;
+	left: 0;
+}
+
+.content .floor .floor-con .top-left .cata table {
+	width: 186px;
+	height: 98px;
+	margin: 26px auto;
+}
+
+.content .floor .floor-con .top-left .cata table td {
+	display: inline-block;
+	width: 83px;
+	height: 24px;
+	text-align: left;
+	line-height: 24px;
+}
+
+.content .floor .floor-con .top-left .cata table td a {
+	color: #292929;
+}
+
+.content .floor .floor-con .top-left .cata table td a:hover {
+	color: #F00F34;
+}
+
+.content .floor .floor-con .top-left .cata table td:nth-of-type(2n) {
+	margin-left: 16px;
+}
+
+.content .brand {
+	width: 230px;
+	height: 171px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.content .brand .prev {
+	display: inline-block;
+	background: url(../images/Himall_web.png) no-repeat -1351px -26px;
+	width: 9px;
+	height: 14px;
+	position: absolute;
+	top: 62px;
+	left: 4px;
+	cursor: pointer;
+}
+
+.content .brand .next {
+	display: inline-block;
+	background: url(../images/Himall_web.png) no-repeat -1377px 0;
+	width: 9px;
+	height: 14px;
+	position: absolute;
+	top: 62px;
+	right: 4px;
+	cursor: pointer;
+}
+
+.content .brand .brand-logo {
+	width: 188px;
+	height: 122px;
+	margin: auto 21px;
+	padding-top: 20px;
+	overflow: hidden;
+}
+
+.content .brand .scroll {
+	width: 1000px;
+	height: 142px;
+	position: relative;
+	left: 0;
+}
+
+.content .brand .scroll ul {
+	height: 142px;
+	width: 188px;
+	float: left;
+}
+
+.content .brand .scroll li {
+	width: 90px;
+	height: 45px;
+	margin-bottom: 6px;
+	float: left;
+}
+
+.content .brand .scroll li:nth-of-type(2n+1) {
+	margin-right: 6px;
+}
+
+.content .brand .scroll li img {
+	width: 90px;
+	height: 45px;
+}
+
+.content .top-right {
+	width: 950px;
+	float: left;
+	overflow: hidden;
+	display: none;
+}
+
+.content .top-right .bigp1 {
+	float: left;
+	margin-right: 10px;
+}
+
+.content .top-right img {
+	display: block;
+}
+
+.content .top-right .bigp2 {
+	margin-right: 5px;
+}
+
+.content .top-right ul li {
+	float: left;
+	width: 160px;
+	height: 205px;
+	padding: 10px 15px;
+	border-bottom: 1px solid #F3F3F3;
+	border-right: 1px solid #F3F3F3;
+}
+
+.content .top-right ul li:nth-of-type(5n) {
+	padding-right: 0;
+	border-right: 0;
+}
+
+.content .top-right ul li:nth-of-type(n+6) {
+	border-bottom: 0;
+}
+
+.content .top-right li img {
+	width: 160px;
+	height: 160px;
+}
+
+.content .top-right li p {
+	padding-top: 5px;
+	height: 24px;
+	line-height: 24px;
+	color: #f00f34;
+	font-size: 14px;
+}
+
+.content .top-right li h3 {
+	font-size: 12px;
+	line-height: 20px;
+	height: 20px;
+	width: 160px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.content .top-right li h3 a {
+	color: #333;
+	font-weight: 100;
+}
+
+.content .top-right li h3 a:hover {
+	color: #f00f34;
+}
+
+.content .con-bottom {
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+.content .con-bottom li {
+	float: left;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.content .brand-bottom h3 {
+	font-weight: 100;
+	font-size: 18px;
+	color: #3d4048;
+	height: 18px;
+	line-height: 18px;
+	padding-bottom: 15px;
+}
+
+.content .brand-bottom .bt-content {
+	width: 1190px;
+	height: 380px;
+}
+
+.content .brand-bottom .bt-content img {
+	display: block;
+}
+
+.content .brand-bottom .bt-content .bt-left {
+	float: left;
+}
+
+.content .brand-bottom .bt-content .bt-md {
+	width: 550px;
+	height: 307px;
+	border-bottom: 2px solid #F3F3F3;
+	border-top: 2px solid #F3F3F3;
+	float: left;
+	padding: 20px 40px;
+	position: relative;
+}
+
+.content .brand-bottom .bt-content .bt-right {
+	float: right;
+}
+
+.bt-content .bt-prev {
+	width: 26px;
+	height: 38px;
+	position: absolute;
+	background: url(../images/Himall_admin.png) no-repeat -4px 0;
+	cursor: pointer;
+	left: 7px;
+	top: 152px;
+}
+
+.bt-content .bt-next {
+	width: 26px;
+	height: 38px;
+	position: absolute;
+	background: url(../images/Himall_admin.png) no-repeat -4px -40px;
+	cursor: pointer;
+	right: 7px;
+	top: 152px;
+}
+
+.bt-content .bt-wrap {
+	width: 550px;
+	height: 306px;
+	overflow: hidden;
+}
+
+.bt-content .bt-scroll {
+	width: 2000px;
+	height: 306px;
+	position: relative;
+}
+
+.bt-content .bt-scroll ul {
+	width: 550px;
+	overflow: hidden;
+	float: left;
+}
+
+.bt-content .bt-scroll li {
+	width: 110px;
+	height: 80px;
+	float: left;
+	padding-top: 20px;
+	background: url(../images/brand_03.png) no-repeat right center;
+}
+
+.bt-content .bt-scroll li:nth-of-type(5n) {
+	background: none;
+}
+
+.bt-content .bt-scroll li img {
+	display: block;
+	width: 100px;
+	height: 50px;
+	margin: 6px auto;
+}
+
+.floor-nav {
+	width: 37px;
+	position: fixed;
+	top: 50%;
+	left: 50px;
+	background: white;
+}
+
+.floor-nav li {
+	height: 30px;
+	width: 37px;
+	border-bottom: 1px dashed #C9C9C9;
+	line-height: 30px;
+	text-align: center;
+	color: #625352;
+	cursor: pointer;
+	position: relative;
+}
+
+.floor-nav li span {
+	position: absolute;
+	left: 0;
+	top: 0px;
+	width: 37px;
+	height: 30px;
+	/*background: #E3393C;*/
+	color: white;
+	display: none;
+}
+
+.floor-nav li span.active {
+	background: #E3393C;
+	color: white;
+	display: block;
+}
+
+.floor-nav li:hover span {
+	display: block;
+	background: #E3393C;
+}

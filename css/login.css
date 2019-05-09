@@ -1,0 +1,233 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #F2F2F2;
+	font-size: 12px;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.logo {
+	width: 900px;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+
+.logo img {
+	display: inline-block;
+	height: 60px;
+}
+
+.logo b {
+	font-size: 25px;
+	background: #f1f1f1;
+	width: 120px;
+	height: 46px;
+	line-height: 46px;
+	position: absolute;
+	top: 18px;
+	text-align: center;
+	margin-left: 20px;
+	border-left: 1px solid #E3E3E3;
+}
+
+section {
+	width: 890px;
+	height: 402px;
+	border: 5px solid #E8E8E8;
+	margin: 55px auto 0;
+}
+
+section .cen {
+	border: 1px solid #E1E1E1;
+	width: 888px;
+	height: 400px;
+	background: white;
+	position: relative;
+}
+
+section .cen img {
+	float: left;
+}
+
+section .cen .content {
+	float: left;
+	width: 321px;
+	height: 354px;
+	margin-left: 55px;
+}
+
+.content ul {
+	height: 54px;
+	border-bottom: 1px solid #FBFBFB;
+}
+
+.content li {
+	float: left;
+	width: 160px;
+	font-size: 18px;
+	text-align: center;
+	line-height: 54px;
+}
+
+.content li a {
+	display: block;
+	width: 160px;
+	line-height: 18px;
+	margin: 18px 0;
+	color: #333333;
+}
+
+.content .part1 {
+	width: 321px;
+	height: 231px;
+}
+
+.content .part1 p {
+	width: 170px;
+	height: 159px;
+	border: 1px solid #F1F1F1;
+	margin: 20px auto 0;
+}
+
+.content .part1 p span {
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	display: inline-block;
+	color: #aaa;
+}
+
+.part2 {
+	display: none;
+}
+
+.part2 .tips {
+	width: 286px;
+	height: 15px;
+	line-height: 15px;
+	padding: 3px 0 3px 30px;
+	margin-bottom: 10px;
+	border: 1px solid #f6c090;
+	color: #666;
+	background: #FEF4E5;
+	position: relative;
+}
+
+.part2 .tips i {
+	background: url(../images/pwd_icons.png) -104px -133px no-repeat;
+	display: inline-block;
+	width: 16px;
+	height: 17px;
+}
+
+.part2 .tips span {
+	position: absolute;
+}
+
+.part2 .user {
+	width: 318px;
+	height: 38px;
+	border: 1px solid #b8c1c8;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.part2 .user .icon {
+	width: 38px;
+	height: 38px;
+	background: #F3F3F3 url(../images/pwd_icons.png) no-repeat;
+}
+
+.part2 .user input {
+	width: 260px;
+	height: 36px;
+	line-height: 36px;
+	position: absolute;
+	left: 39px;
+	top: 0;
+	border: 0;
+	padding-left: 10px;
+	outline: none;
+}
+
+#log {
+	width: 320px;
+	height: 40px;
+	border: 0;
+	outline: none;
+	background: #F6342F;
+	color: white;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+#log:hover {
+	background: #EF4A4E;
+}
+
+.link {
+	width: 386px;
+	height: auto;
+	line-height: 50px;
+	border-top: 1px solid #F4F4F4;
+	padding-right: 20px;
+	position: absolute;
+	right: 1px;
+	bottom: 1px;
+	background: #FCFCFC;
+	/*padding-left: 20px;*/
+}
+
+.link ul {
+	padding-left: 50px;
+}
+
+.link li {
+	float: left;
+	width: 75px;
+	position: relative;
+}
+
+.link li i {
+	width: 19px;
+	height: 18px;
+	position: absolute;
+	top: 17px;
+	background: url(../images/icon-qww.png) no-repeat;
+}
+
+.link a {
+	color: #333333;
+	margin-left: 25px;
+}
+
+.link a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+footer {
+	width: 990px;
+	text-align: center;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+
+.copyright {
+	margin: 10px 0;
+}
+
+.content .active {
+	color: #E54B54;
+	font-weight: 600;
+}

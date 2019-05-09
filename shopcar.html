@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车结算</title>
+		<link rel="icon" href="images/logo.ico" type="images/x-ico" />
+		<link rel="stylesheet" type="text/css" href="css/shopcar.css" />
+	</head>
+
+	<body>
+		<div class="top">
+			<div class="top-cen">
+				<span style="color: #7F7F7A;">您好，欢迎来到 </span> <span>中酒网 ! </span>
+				<a href="index.html" style="color: #E3393C;margin-left: 10px;">去首页</a>
+				<span class="log">
+					<a href="login.html" style="margin-left: 44px;color: #7f7f7a;padding-right: 11px;border-right: 1px solid #e6e6e6;">请登录</a>
+					<a href="register.html" style="color: #7f7f7a;padding-left: 11px;">免费注册</a>
+				</span>
+				<ul class="top-list">
+					<li class="wh div">
+						<a href="#">我的中酒网<b></b></a>
+						<div>
+							<ol style="width: 88px;">
+								<li>
+									<a href="#">已买到的商品</a>
+								</li>
+								<li>
+									<a href="#">我关注的商品</a>
+								</li>
+								<li>
+									<a href="#">我关注的店铺</a>
+								</li>
+							</ol>
+						</div>
+					</li>
+					<li>
+						<a href="shopcar.html" target="_blank">我的购物车</a>
+					</li>
+					<li class="wh div">
+						<a href="javascript:;">微信端</a>
+						<div style="height: 90px;">
+							<img src="images/qrCode.png" alt="" width="90" height="90" />
+						</div>
+					</li>
+					<li class="wh div">
+						<a href="javascript:;">APP</a>
+						<div>
+							<img src="images/mob.jpg" width="90" height="90" style="display: block;" />
+							<h3>扫描二维码</h3>
+							<p>下载手机客户端</p>
+						</div>
+					</li>
+					<li class="wh">
+						<a href="#">卖家中心<b></b></a>
+					</li>
+					<li class="wh">
+						<a href="javascript:;">订购热线：400-798-9999</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="logo">
+			<a href="index.html"><img src="images/logo.png" /></a>
+		</div>
+		<div class="shopcar">
+			<p>我的购物车</p>
+			<div class="show">
+				<div class="show-head">
+					<div class="all">
+						<input type="checkbox" id="selAll" />
+						<label>全选</label>
+					</div>
+					<div class="good">商品</div>
+					<div class="price">价格</div>
+					<div class="count">数量</div>
+					<div class="sum">小计</div>
+					<div class="action">操作</div>
+				</div>
+				<div class="content">
+					<!--<div class="item">
+						<div class="sel">
+							<input type="checkbox" />
+						</div>
+						<div class="good">
+							<div class="good-img">
+								<a href="page.html" target="_blank"><img src="images/01.png"/></a>
+							</div>
+							<div class="good-name">
+								<a href="page.html" target="_blank">42度天佑德青稞酒小黑125ml×4</a>
+							</div>
+						</div>
+						<div class="price">￥119.00</div>
+						<div class="count">
+							<a href="javascript:;">-</a>
+							<a href="javascript:;">1</a>
+							<a href="javascript:;">+</a>
+						</div>
+						<div class="sum">￥119.00</div>
+						<div class="action">
+							<a href="javascript:;">删除</a>
+						</div>
+					</div>-->
+				</div>
+				<div class="bottom">
+					<div class="del">
+						<a href="javascript:;" id="delAll">删除</a>
+					</div>
+					<div class="total">总计：<span id="s1">0.00</span></div>
+					<div class="jiesuan"><button>去结算</button></div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/shopcar.js"></script>

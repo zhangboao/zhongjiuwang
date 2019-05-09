@@ -1,0 +1,223 @@
+.fixed {
+	width: 40px;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	right: 0;
+	background: #2A2A2E;
+	z-index: 20;
+}
+
+.fixed .shopbox {
+	width: 40px;
+	height: 140px;
+	position: absolute;
+	top: 47%;
+	cursor: pointer;
+}
+
+.fixed .shopbox:hover {
+	background: #e3393c;
+}
+
+.fixed .shopbox span {
+	display: block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.fixed .shopbox i {
+	display: inline-block;
+	width: 16px;
+	height: 14px;
+	background: url(../images/Himall_web.png) -1429px 0;
+}
+
+.fixed .shopbox p {
+	padding: 0 14px;
+	color: #E8E8E8;
+}
+
+.fixed .shopbox b {
+	display: inline-block;
+	min-width: 14px;
+	height: 20px;
+	line-height: 20px;
+	border-radius: 10px;
+	background: #e3393c;
+	padding: 0 3px;
+	text-align: center;
+	color: #E8E8E8;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.page {
+	width: 1190px;
+	height: 600px;
+	margin: 0 auto;
+	padding-top: 30px;
+	position: relative;
+}
+
+.page .page-left {
+	width: 352px;
+	height: 480px;
+	float: left;
+	position: relative;
+}
+
+.page-left .small {
+	width: 350px;
+	height: 350px;
+	border: 1px solid #CCCCCC;
+	overflow: hidden;
+	position: relative;
+}
+
+.page-left .small .mask {
+	width: 175px;
+	height: 175px;
+	background: red;
+	opacity: 0.4;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	cursor: move;
+	display: none;
+}
+
+.page-left img {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.page-left .tab {
+	width: 352px;
+	height: 76px;
+	margin-top: 20px;
+}
+
+.page-left .tab li {
+	width: 52px;
+	height: 52px;
+	margin-right: 14px;
+	float: left;
+	cursor: pointer;
+}
+
+.page-left .tab li.active {
+	border: 2px solid #FF0000;
+}
+
+.page-left .big {
+	width: 350px;
+	height: 350px;
+	overflow: hidden;
+	border: 1px solid #ccc;
+	position: absolute;
+	left: 400px;
+	display: none;
+	background: white;
+}
+
+.page-left .big img {
+	display: block;
+	width: 700px;
+	height: 700px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.page-right {
+	float: left;
+	padding: 0 50px;
+}
+
+.page-right h1 {
+	font-size: 18px;
+	font-weight: 100;
+	color: #222;
+	line-height: 24px;
+	height: 24px;
+}
+
+.page-right ul {
+	border-bottom: 1px dashed #CBCAD0;
+	width: 490px;
+}
+
+.page-right li {
+	font-size: 16px;
+	padding: 15px 0;
+	color: #666666;
+	height: 24px;
+	line-height: 24px;
+}
+
+.page-right li span {
+	color: red;
+	font-weight: 800;
+	font-size: 18px
+}
+
+.page-right .count {
+	width: 490px;
+	height: 26px;
+	line-height: 26px;
+	padding: 10px 0;
+}
+
+.page-right .count span {
+	display: inline-block;
+	width: 50px;
+	height: 26px;
+	font-size: 14px;
+	color: #666666;
+}
+
+.page-right .count a {
+	display: inline-block;
+	width: 30px;
+	height: 24px;
+	border: 1px solid #C2C3C4;
+	line-height: 24px;
+	text-align: center;
+}
+
+.page-right .buy-shop {
+	width: 490px;
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+.page-right .buy-shop .buy {
+	width: 150px;
+	height: 50px;
+	background: #FF4D50;
+	float: left;
+	color: white;
+	font-size: 18px;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 5px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.page-right .buy-shop .shop {
+	width: 146px;
+	height: 46px;
+	float: left;
+	color: #FF4D50;
+	font-size: 18px;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 5px;
+	border: 2px solid #ff4d50;
+	cursor: pointer;
+}

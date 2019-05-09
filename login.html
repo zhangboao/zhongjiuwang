@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		<link rel="icon" href="images/logo.ico" type="images/x-ico" />
+		<link rel="stylesheet" type="text/css" href="css/login.css" />
+	</head>
+
+	<body>
+		<div class="logo">
+			<a href="index.html"><img src="images/zhongjiuloginlog.png" alt="" /></a>
+			<b>欢迎登录</b>
+		</div>
+		<section>
+			<div class="cen">
+				<img src="images/pcloginpic.png" />
+				<div class="content">
+					<ul id="ul">
+						<li>
+							<a href="javascript:;" style="border-right: 1px solid #CCCCCC;" class="active">扫码登录</a>
+						</li>
+						<li>
+							<a href="javascript:;">账号登录</a>
+						</li>
+					</ul>
+					<div id="index">
+						<div class="part part1">
+							<p><img src="images/GetQR.gif" style="width: 159px;" />
+								<span>打开<a href="#" style="color: #E54B54;">中酒网app</a></span>
+								<span style="margin-left: 20px;">扫描二维码</span>
+							</p>
+							<span style="margin-top: 45px;width: 276px;height: 14px;display: inline-block;margin-left: 45px;"><img src="images/sao_2.png"/></span>
+						</div>
+						<div class="part part2">
+							<div class="tips">
+								<i></i>
+								<span>公共场所不建议自动登录，以防账号丢失</span>
+							</div>
+							<div class="user">
+								<div class="icon" style="background-position: 0 0;"></div>
+								<input type="text" placeholder="用户名" id="user" />
+							</div>
+							<div class="user">
+								<div class="icon" style="background-position: -48px 0;"></div>
+								<input type="password" placeholder="密码" id="pwd" />
+							</div>
+							<input type="button" id="log" value="登录" />
+						</div>
+					</div>
+				</div>
+				<div class="link">
+					<ul>
+						<li><i style="background-position: -21px 0;"></i>
+							<a href="https://im.qq.com">QQ</a>
+						</li>
+						<li><i style="background-position: -40px 0;"></i>
+							<a href="https://weixin.qq.com">微信</a>
+						</li>
+						<li><i style="background-position: 0 0;"></i>
+							<a href="https://weibo.com">微博</a>
+						</li>
+						<li>
+							<a href="register.html" target="_blank">立即注册</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<p class="copyright">Copyright©2004-2015 中酒网 版权所有</p>
+		</footer>
+	</body>
+
+</html>
+<script src="js/jquery-1.8.3.js"></script>
+<script src="js/login.js"></script>
+<script src="js/cookie.js"></script>

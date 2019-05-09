@@ -1,0 +1,178 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 12px;
+	color: #7f7f7a;
+}
+
+a {
+	text-decoration: none;
+	color: #7f7f7a;
+}
+
+li {
+	list-style: none;
+}
+
+.ensure {
+	width: 100%;
+	height: 108px;
+	background: #f8f8f8;
+	border-bottom: 1px solid #d6d6d6;
+}
+
+.ensure-cen {
+	width: 1190px;
+	height: 108px;
+	margin: 0 auto;
+}
+
+.ensure-cen dl {
+	margin-right: 36px;
+	margin-top: 33px;
+	float: left;
+}
+
+.ensure-cen dl dt {
+	width: 55px;
+	height: 40px;
+	background: url(../images/icon.png) no-repeat;
+	float: left;
+}
+
+.ensure-cen dl dd {
+	float: right;
+}
+
+.ensure-cen dl dd h3 {
+	font-size: 16px;
+	color: #313131;
+	padding-bottom: 2px;
+	font-weight: 100;
+}
+
+.ensure-cen dl dd p {
+	font-size: 13px;
+	color: #666;
+}
+
+.service {
+	width: 100%;
+	height: 180px;
+	background: #F3F3F3;
+	padding-top: 35px;
+	padding-bottom: 9px;
+}
+
+.service-cen {
+	width: 1190px;
+	height: 180px;
+	margin: 0 auto;
+}
+
+.service-cen .linkother {
+	width: 200px;
+	margin-top: 5px;
+	float: left;
+}
+
+.service-cen .linkother dd {
+	margin-bottom: 20px;
+}
+
+.service-cen .list {
+	width: 141px;
+	float: left;
+}
+
+.service-cen .list dt {
+	font-size: 15px;
+	height: 35px;
+	line-height: 35px;
+	color: #313131;
+	font-weight: 600;
+}
+
+.service-cen .list dd {
+	height: 24px;
+	line-height: 24px;
+}
+
+.service-cen .list dd a {
+	color: #666;
+}
+
+.service-cen .list dd a:hover {
+	color: #E3393C;
+}
+
+.service-cen .p {
+	width: 110px;
+	float: left;
+}
+
+.service-cen .p dt {
+	text-align: center;
+	font-size: 15px;
+	height: 35px;
+	line-height: 35px;
+	font-weight: 800;
+	color: #313131;
+}
+
+.service-cen .p dd {
+	text-align: center;
+	padding-top: 90px;
+	display: block;
+}
+
+.service-cen .app {
+	margin-left: 50px;
+}
+
+.service-cen .app dd {
+	background: url(../images/12.jpg) no-repeat center top;
+}
+
+.service-cen .wei dd {
+	background: url(../images/wx.jpg) no-repeat center top;
+}
+
+.flink {
+	width: 100%;
+	height: 39px;
+	background: #313131;
+}
+
+.flink-cen {
+	line-height: 39px;
+	width: 1190px;
+	height: 39px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.flink-cen a {
+	padding: 0 14px;
+	color: white;
+	border-right: 1px solid white;
+	font-size: 13px;
+}
+
+.footer {
+	height: 110px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.footer p {
+	color: #666;
+	padding-top: 10px;
+}
+
+.footer a {
+	margin-left: 5px;
+}
